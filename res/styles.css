@@ -1,4 +1,4 @@
-@import  "//fonts.googleapis.com/css?family=Montserrat";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
 html {
   height: 100%;
@@ -10,9 +10,10 @@ body {
   width: auto;
   height: auto;
   min-height: 100%;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Open Sans",sans-serif;
   line-height: 1.42857;
-  font-size: 17px;
+  font-size: 25px;
+  font-weight: bolder;
   background-color: rgba(0,0,0,1);
   color: #FFF;
   word-wrap: normal;
@@ -27,6 +28,12 @@ section {
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
+}
+
+
+.author {
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 .bg-image {
@@ -156,7 +163,7 @@ section {
   top: 0;
   bottom: 0;
   width: 100%;
-  background: url(./res/loading.gif) 50% 45% no-repeat;
+  background: url("loading.gif") 50% 45% no-repeat;
 }
 
 .rel {
@@ -165,7 +172,7 @@ section {
 
 .bg-image {
   /* photo from: https://www.pexels.com/photo/dawn-landscape-mountains-nature-1852/ */
-  background-image: url(./res/back.jpg);
+  background-image: url("back.jpg");
   background-attachment: scroll;
   background-position: 50% 50%;
   background-size: cover;
